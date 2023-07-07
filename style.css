@@ -32,6 +32,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
+    height: 100vh;
 }
 
 body * {
@@ -162,3 +163,13 @@ ul li a:hover {
     background: var(--hover-icon-color);
 }
 
+
+
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg)
+    }
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg)
+    }
+}
